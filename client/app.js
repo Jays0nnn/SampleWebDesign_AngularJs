@@ -15,6 +15,8 @@ app.controller('myCtrl', function() {
 
 });
 
+//Need to Separate Angular & Jquery file
+
 $(document).ready(function() {
 
     var nav = $('.nav');
