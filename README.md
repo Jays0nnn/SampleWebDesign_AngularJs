@@ -8,3 +8,6 @@
   <li>Sass</li>
 </ul>
 
+<h1>To Test: 
+<ll>Download component packages using npm and bower </li>
+<ll>Run localhost:8080 on Browser</li> </h1>
