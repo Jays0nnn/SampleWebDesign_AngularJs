@@ -1,22 +1,22 @@
-@media only screen and (min-width: 1101px) and (max-width: 1200px) {
-    .header {
+@media only screen and (min-width : 917px) and (max-width: 978px) {
+.header {
         background: linear-gradient(324deg, black -100%, grey 100%), linear-gradient(to top, #0a77d5 37%, white 100%), url(../../assets/image1.jpg);
         background-blend-mode: multiply;
         /*background-image: url("../../assets/gradientImage.jpg")*/
         width: 100%;
-        height: 91%;
+        height: 80%;
         background-size: cover;
         .heading {
-            position: absolute;
-            top: 21em;
-            left: 32em;
-            margin-left: 16em;
+    position: absolute;
+    top: 17em;
+    left: 28em;
+    margin-left: 10em;
         }
         h1 {
-            color: white;
-            font-family: 'reg';
-            font-size: 3em;
-            line-height: .5;
+    color: white;
+    font-family: 'reg';
+    font-size: 3em;
+    line-height: .4;
         }
         span {
             font-family: 'bold';
@@ -26,43 +26,42 @@
             padding: 1em .1em;
             z-index: 1;
             border-radius: 5em;
-            bottom: -9em;
-            left: -5.1em;
-            /* bottom: -10em; */
+    bottom: -8em;
+    left: -5.1em;
             background: white;
         }
         #arrowHead {
             width: 0;
             height: 0;
             position: absolute;
-            bottom: -10em;
-            left: -5.5em;
+    bottom: -9em;
+    left: -5.5em;
             border-style: solid;
             border-width: 1em .5em 0 .5em;
             border-color: #ffffff transparent transparent transparent;
         }
         h2 {
-            margin-right: 13em;
-            font-size: .9em;
-            line-height: 1.5em;
-            font-family: 'reg';
-            color: white;
+    margin-right: 5em;
+    font-size: .9em;
+    line-height: 1.3em;
+    font-family: 'reg';
+    color: white;
         }
         .buttons {
             display: flex;
             h3 {
-                font-size: .9em;
-                padding: 1em 3.1em 1em 3.1em;
-                border: solid 1.5px white;
-                margin: .5em 0 0 1em;
-                font-family: 'bold';
-                color: white;
-                cursor: pointer;
+font-size: 0.9em;
+    padding: 1em 3.1em 1em 3.1em;
+    border: solid 1.5px white;
+    margin: .5em 0 0 1em;
+    font-family: 'bold';
+    color: white;
+    cursor: pointer;
             }
             h3:hover {
 
-            	background-color: white;
-            	color: black;
+                background-color: white;
+                color: black;
             }
         }
     }
@@ -81,7 +80,7 @@
         button {
 
             float: right;
-    		margin-top: .5em;
+            margin-top: .5em;
         }
     }
     .fixed {
@@ -106,22 +105,22 @@
             margin-top: 1.5em;
         }
         .left {
-            position: absolute;
-            padding: 5.5em .02em;
-            background: black;
-            bottom: -23em;
-            left: 8em;
-            transform: rotate(-26deg);
-            z-index: 1;
+position: absolute;
+    padding: 5.2em .02em;
+    background: black;
+    bottom: -17em;
+    left: 7em;
+    transform: rotate(-28deg);
+    z-index: 1;
         }
         .right {
-            position: absolute;
-            padding: 5.5em .02em;
-            background: black;
-            bottom: -15.7em;
-            right: 8em;
-            transform: rotate(-26deg);
-            z-index: 1;
+position: absolute;
+    padding: 5.2em .02em;
+    background: black;
+    bottom: -12.7em;
+    right: 7em;
+    transform: rotate(-26deg);
+    z-index: 1;
         }
         .whitespace {
             width: 100%;
@@ -143,5 +142,5 @@
             }
         }
     }
-}
 
+}

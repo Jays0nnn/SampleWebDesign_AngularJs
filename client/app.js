@@ -39,15 +39,23 @@ $(document).ready(function() {
 
     $(window).scroll(function() {
 
-        if ($(this).scrollTop() > 696) {
+        if ($(this).scrollTop() > 678) {
             console.log('hey');
+
+            nav.addClass("fixed");
+
+        } else if($(this).scrollTop() > 650) {
+
+           
+            nav.addClass("fixed");
+
+        }else if($(this).scrollTop() > 620) {
 
             nav.addClass("fixed");
 
         } else {
 
-            nav.removeClass("fixed");
-
+             nav.removeClass("fixed");
         }
 
     });
