@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'reg';
+  src: url("../assets/Karla-Regular.ttf"); }
+@font-face {
+  font-family: 'bold';
+  src: url("../assets/Karla-Bold.ttf"); }
+body {
+  margin: 0; }
+
+.container {
+  padding: 0;
+  margin: 0;
+  width: 100%; }
+
+/*# sourceMappingURL=main.css.map */
